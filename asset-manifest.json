@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mutualism-portal/static/css/main.47c110e5.chunk.css",
-    "main.js": "/mutualism-portal/static/js/main.6c6e0be5.chunk.js",
-    "main.js.map": "/mutualism-portal/static/js/main.6c6e0be5.chunk.js.map",
+    "main.css": "/mutualism-portal/static/css/main.5cac3934.chunk.css",
+    "main.js": "/mutualism-portal/static/js/main.5abcb03c.chunk.js",
+    "main.js.map": "/mutualism-portal/static/js/main.5abcb03c.chunk.js.map",
     "runtime-main.js": "/mutualism-portal/static/js/runtime-main.7daf02f4.js",
     "runtime-main.js.map": "/mutualism-portal/static/js/runtime-main.7daf02f4.js.map",
     "static/css/2.7b32cf10.chunk.css": "/mutualism-portal/static/css/2.7b32cf10.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.5705a4c2.chunk.js.map": "/mutualism-portal/static/js/3.5705a4c2.chunk.js.map",
     "index.html": "/mutualism-portal/index.html",
     "static/css/2.7b32cf10.chunk.css.map": "/mutualism-portal/static/css/2.7b32cf10.chunk.css.map",
-    "static/css/main.47c110e5.chunk.css.map": "/mutualism-portal/static/css/main.47c110e5.chunk.css.map",
+    "static/css/main.5cac3934.chunk.css.map": "/mutualism-portal/static/css/main.5cac3934.chunk.css.map",
     "static/js/2.ed0c8a38.chunk.js.LICENSE.txt": "/mutualism-portal/static/js/2.ed0c8a38.chunk.js.LICENSE.txt",
     "static/media/404.f6e6b85c.svg": "/mutualism-portal/static/media/404.f6e6b85c.svg",
     "static/media/mutualism-logo-black.cec1fb57.svg": "/mutualism-portal/static/media/mutualism-logo-black.cec1fb57.svg",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.7daf02f4.js",
     "static/css/2.7b32cf10.chunk.css",
     "static/js/2.ed0c8a38.chunk.js",
-    "static/css/main.47c110e5.chunk.css",
-    "static/js/main.6c6e0be5.chunk.js"
+    "static/css/main.5cac3934.chunk.css",
+    "static/js/main.5abcb03c.chunk.js"
   ]
 }
