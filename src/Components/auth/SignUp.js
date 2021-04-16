@@ -11,6 +11,7 @@ const SignUp = (props)=>{
     const [mobile,setMobile] = useState("");
     const [email,setEmail] = useState("");
     const [password,setPassword] = useState("");
+    const [confirmPassword,setConfirmPassword] = useState("");
     // Form validation
     const [signUpErr,setSignUpErr] = useState("");
     const [formValid, setFormValid] = useState(false);
@@ -21,9 +22,13 @@ const SignUp = (props)=>{
     const register = (e)=>{
         e.preventDefault();
         // Form validation for no input
-        if(email != "" || password != "" || name != "" || lastName != "" || mobile != "" ){
+        if(email != "" || password != "" || name != "" || lastName != "" || mobile != "" || confirmPassword == password){
             // check if form is valid/recaptcha has been completed
-            if(formValid == true){
+            
+            if(password != confirmPassword){
+                setSignUpErr("Your passwords do not match");
+            }
+            else if(formValid == true){
                 // create firebase account
                var register =  authentication.createUserWithEmailAndPassword(email,password)
                register.then((userCredential)=>{
@@ -81,6 +86,7 @@ const SignUp = (props)=>{
             setLastName("");
             setEmail("");
             setPassword("");
+            setConfirmPassword("");
         }else{
             setSignUpErr("");
             setSignUpCompleted(false);
@@ -114,6 +120,12 @@ const SignUp = (props)=>{
                 <div className="row mb-3">
                     <div className="col-sm-12">
                         <input type="password" value={password} onChange={(val)=>{setPassword(val.target.value)}} placeholder={"Password*"} className="form-control sign-in-element" id="inputPassword3"/>
+                    </div>
+                </div>
+
+                <div className="row mb-3">
+                    <div className="col-sm-12">
+                        <input type="password" value={confirmPassword} onChange={(val)=>{setConfirmPassword(val.target.value)}} placeholder={"Confirm Password*"} className="form-control sign-in-element" id="inputPassword3"/>
                     </div>
                 </div>
 

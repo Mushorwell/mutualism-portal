@@ -443,6 +443,21 @@ div#steps {
     justify-content: center;
 }
 
+.emailVerififed {
+    width: 100%;
+    height: 40px;
+    background: #007a4d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailVerififed p{
+    margin: 0;
+    font-weight: bold;
+    color: white;
+}
+
 @media(max-width: 1200px){
     .filter-button-spacerL,
     .filter-button-spacerR {
@@ -894,11 +909,12 @@ button.btn.btn-dark.application-start:focus{
 }
 .card1:focus{
     box-shadow: none !important;
+    color: #ffffff;
     background: #007A4D;
 }
 
 .card1:focus .small.note{
-    color: #000;
+    color: #ffffff;
 }
 
 .card1:before {

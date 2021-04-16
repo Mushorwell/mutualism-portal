@@ -34,16 +34,16 @@ const BusinessFinances = (props) => {
         <div className="input-section" style={props.show?null:{display:"none"}}>
             <h3 className="step-heading" style={{marginTop:40}}>Financial Records</h3>
             <div className="application-form inline-input-elements">
-                <button className={`card1`} id="noRecords" onClick={handleFinancialsOption} style={!props.hasFinances?{border: "solid 1px #007A4D"}:{border: "none"}}>
+                <button className={`card1`} id="noRecords" onClick={handleFinancialsOption} style={!props.hasFinances?{border: "solid 1px #007A4D", background:"#007A4D", color:"#ffffff"}:{border: "none"}}>
                     <h6 className="step-heading" id="noRecords">No Financial Records</h6>
                     <p className="small" id="noRecords">My business has no financial records that can be provided with this application.</p>
-                    <p className="small note" id="noRecords">(No documentation for financials required.)</p>
+                    <p className="small note" id="noRecords" style={props.hasFinances?{color:"#007A4D"}:{color:"#ffffff"}}>(No documentation for financials required.)</p>
                     <div className="go-corner" id="noRecords"></div>
                 </button>
-                <button className={`card1`} id="availableRecords" onClick={handleFinancialsOption} style={props.hasFinances?{border: "solid 1px #007A4D"}:{border: "none"}}>
+                <button className={`card1`} id="availableRecords" onClick={handleFinancialsOption} style={props.hasFinances?{border: "solid 1px #007A4D", background:"#007A4D", color:"#ffffff"}:{border: "none"}}>
                     <h6 className="step-heading" id="availableRecords">Available Financial Records</h6>
                     <p className="small" id="availableRecords">My business financial records that can be provided with this application.</p>
-                    <p className="small note" id="availableRecords">(Documentation for financials required.)</p>
+                    <p className="small note" id="availableRecords" style={props.hasFinances?{color:"#ffffff"}:{color:"#007A4D"}}>(Documentation for financials required.)</p>
                     <div className="go-corner" id="availableRecords"></div>
                 </button>
             </div>

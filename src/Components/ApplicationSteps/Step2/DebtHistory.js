@@ -109,11 +109,11 @@ const DebtHistory = (props) => {
         <div className="input-section" style={props.show?null:{display:"none"}}>
             <h3 className="step-heading" style={{marginTop:40}}>Debt History</h3>
             <div className="application-form inline-input-elements">
-                <button className={`card1`} id="noRecords" onClick={handleDebtOption} style={!props.hasHistory?{border: "solid 1px #007A4D"}:{border: "none"}}>
+                <button className={`card1`} id="noRecords" onClick={handleDebtOption} style={!props.hasHistory?{border: "solid 1px #007A4D", background:"#007A4D", color:"#ffffff"}:{border: "none"}}>
                     <h6 className="step-heading" id="noRecords">No Debt History</h6>
                     <div className="go-corner" id="noRecords"></div>
                 </button>
-                <button className={`card1`} id="availableRecords" onClick={handleDebtOption} style={props.hasHistory?{border: "solid 1px #007A4D"}:{border: "none"}}>
+                <button className={`card1`} id="availableRecords" onClick={handleDebtOption} style={props.hasHistory?{border: "solid 1px #007A4D", background:"#007A4D", color:"#ffffff"}:{border: "none"}}>
                     <h6 className="step-heading" id="availableRecords">Have Debt History</h6>
                     <div className="go-corner" id="availableRecords"></div>
                 </button>
