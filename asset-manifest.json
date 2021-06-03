@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/mutualism-portal/static/css/main.13fed8a7.chunk.css",
+    "main.js": "/mutualism-portal/static/js/main.16a0b086.chunk.js",
+    "main.js.map": "/mutualism-portal/static/js/main.16a0b086.chunk.js.map",
+    "runtime-main.js": "/mutualism-portal/static/js/runtime-main.f54c337e.js",
+    "runtime-main.js.map": "/mutualism-portal/static/js/runtime-main.f54c337e.js.map",
+    "static/css/2.7b32cf10.chunk.css": "/mutualism-portal/static/css/2.7b32cf10.chunk.css",
+    "static/js/2.57424ed1.chunk.js": "/mutualism-portal/static/js/2.57424ed1.chunk.js",
+    "static/js/2.57424ed1.chunk.js.map": "/mutualism-portal/static/js/2.57424ed1.chunk.js.map",
+    "static/js/3.b33953f5.chunk.js": "/mutualism-portal/static/js/3.b33953f5.chunk.js",
+    "static/js/3.b33953f5.chunk.js.map": "/mutualism-portal/static/js/3.b33953f5.chunk.js.map",
+    "index.html": "/mutualism-portal/index.html",
+    "static/css/2.7b32cf10.chunk.css.map": "/mutualism-portal/static/css/2.7b32cf10.chunk.css.map",
+    "static/css/main.13fed8a7.chunk.css.map": "/mutualism-portal/static/css/main.13fed8a7.chunk.css.map",
+    "static/js/2.57424ed1.chunk.js.LICENSE.txt": "/mutualism-portal/static/js/2.57424ed1.chunk.js.LICENSE.txt",
+    "static/media/404.691a5e75.svg": "/mutualism-portal/static/media/404.691a5e75.svg",
+    "static/media/CookiePolicy.f3e35d96.pdf": "/mutualism-portal/static/media/CookiePolicy.f3e35d96.pdf",
+    "static/media/PrivacyPolicy.05e999bb.pdf": "/mutualism-portal/static/media/PrivacyPolicy.05e999bb.pdf",
+    "static/media/Terms&Conditions.f9f569c0.pdf": "/mutualism-portal/static/media/Terms&Conditions.f9f569c0.pdf",
+    "static/media/dashboard.918f50c3.svg": "/mutualism-portal/static/media/dashboard.918f50c3.svg",
+    "static/media/mutualism-logo-white-no-text.a0c26bf2.svg": "/mutualism-portal/static/media/mutualism-logo-white-no-text.a0c26bf2.svg",
+    "static/media/slick-theme.css": "/mutualism-portal/static/media/slick.c94f7671.ttf",
+    "static/media/submitted.a888e190.svg": "/mutualism-portal/static/media/submitted.a888e190.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f54c337e.js",
+    "static/css/2.7b32cf10.chunk.css",
+    "static/js/2.57424ed1.chunk.js",
+    "static/css/main.13fed8a7.chunk.css",
+    "static/js/main.16a0b086.chunk.js"
+  ]
+}
