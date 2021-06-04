@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mutualism-portal/static/css/main.13fed8a7.chunk.css",
-    "main.js": "/mutualism-portal/static/js/main.16a0b086.chunk.js",
-    "main.js.map": "/mutualism-portal/static/js/main.16a0b086.chunk.js.map",
+    "main.js": "/mutualism-portal/static/js/main.fa06a484.chunk.js",
+    "main.js.map": "/mutualism-portal/static/js/main.fa06a484.chunk.js.map",
     "runtime-main.js": "/mutualism-portal/static/js/runtime-main.f54c337e.js",
     "runtime-main.js.map": "/mutualism-portal/static/js/runtime-main.f54c337e.js.map",
     "static/css/2.7b32cf10.chunk.css": "/mutualism-portal/static/css/2.7b32cf10.chunk.css",
@@ -28,6 +28,6 @@
     "static/css/2.7b32cf10.chunk.css",
     "static/js/2.57424ed1.chunk.js",
     "static/css/main.13fed8a7.chunk.css",
-    "static/js/main.16a0b086.chunk.js"
+    "static/js/main.fa06a484.chunk.js"
   ]
 }
